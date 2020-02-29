@@ -2,26 +2,12 @@
   "name": "test-gillian",
   "version": "0.0.0",
   "description": "My Project",
-  "esy": {
-    "build": "dune exec ./test.exe",
-    "exportedEnv": {
-      "DYLD_LIBRARY_PATH": {
-        "val": "#{@opam/z3.lib / 'z3' : $DYLD_LIBRARY_PATH}",
-        "scope": "global"
-      },
-      "LD_LIBRARY_PATH": {
-        "val": "#{@opam/z3.lib / 'z3' : $LD_LIBRARY_PATH}",
-        "scope": "global"
-      }
-    }
-  },
+  "esy": { "build": "dune build @install --promote-install-files" },
   "dependencies": {
-    "@opam/dune": ">=1.6.0",
+    "@opam/dune": "^2.0.0",
+    "@opam/fmt": "0.8.8",
     "gillian": "gillianplatform/Gillian:gillian.json#8b2e254a038",
     "ocaml": "^4.8.1000"
   },
-  "devDependencies": {
-    "ocaml": "4.8.1000",
-    "@opam/merlin": "*"
-  }
+  "devDependencies": { "ocaml": "4.8.1000", "@opam/merlin": "*" }
 }
