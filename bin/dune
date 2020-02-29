@@ -1,4 +1,4 @@
 (executable
   (name test)
   (public_name test)
-  (libraries gillian))
+  (libraries lib))

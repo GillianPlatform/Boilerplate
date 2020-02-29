@@ -1,5 +1,5 @@
 {
-  "checksum": "eb57c98d25fdfd4e90ca848dc02d4323",
+  "checksum": "3b1f6428a4e69117f305735057a393ca",
   "root": "test-gillian@link-dev:./package.json",
   "node": {
     "test-gillian@link-dev:./package.json": {
@@ -15,7 +15,7 @@
       "dependencies": [
         "ocaml@4.8.1000@d41d8cd9",
         "gillian@github:gillianplatform/Gillian:gillian.json#8b2e254a038@d41d8cd9",
-        "@opam/dune@opam:2.3.1@b10b59bf"
+        "@opam/fmt@opam:0.8.8@01c3a23c", "@opam/dune@opam:2.3.1@b10b59bf"
       ],
       "devDependencies": [
         "ocaml@4.8.1000@d41d8cd9", "@opam/merlin@opam:3.3.3@d653b06a"
