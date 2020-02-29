@@ -1,5 +1,5 @@
 {
-  "checksum": "ef255b8ad5df0cac181f673a989cfd15",
+  "checksum": "eb57c98d25fdfd4e90ca848dc02d4323",
   "root": "test-gillian@link-dev:./package.json",
   "node": {
     "test-gillian@link-dev:./package.json": {
@@ -13,7 +13,8 @@
       },
       "overrides": [],
       "dependencies": [
-        "ocaml@4.8.1000@d41d8cd9", "gillian@link:../Gillian/gillian.json",
+        "ocaml@4.8.1000@d41d8cd9",
+        "gillian@github:gillianplatform/Gillian:gillian.json#8b2e254a038@d41d8cd9",
         "@opam/dune@opam:2.3.1@b10b59bf"
       ],
       "devDependencies": [
@@ -34,14 +35,16 @@
       "dependencies": [],
       "devDependencies": []
     },
-    "gillian@link:../Gillian/gillian.json": {
-      "id": "gillian@link:../Gillian/gillian.json",
+    "gillian@github:gillianplatform/Gillian:gillian.json#8b2e254a038@d41d8cd9": {
+      "id":
+        "gillian@github:gillianplatform/Gillian:gillian.json#8b2e254a038@d41d8cd9",
       "name": "gillian",
-      "version": "link:../Gillian/gillian.json",
+      "version": "github:gillianplatform/Gillian:gillian.json#8b2e254a038",
       "source": {
-        "type": "link",
-        "path": "../Gillian",
-        "manifest": "gillian.json"
+        "type": "install",
+        "source": [
+          "github:gillianplatform/Gillian:gillian.json#8b2e254a038"
+        ]
       },
       "overrides": [],
       "dependencies": [

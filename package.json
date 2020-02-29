@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@opam/dune": ">=1.6.0",
-    "gillian": "GillianPatform/Gillian:gillian.json#8b2e254a038d19d53",
+    "gillian": "gillianplatform/Gillian:gillian.json#8b2e254a038",
     "ocaml": "^4.8.1000"
   },
   "devDependencies": {
